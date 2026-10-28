@@ -18,7 +18,7 @@ TCM-MicroScope/
 `-- dataset4/                  # D4: unseen target domain
 ```
 
-Each domain or split contains one folder per class. Folder names use the transliterated identifiers listed in [`CLASS_MAPPING.csv`](CLASS_MAPPING.csv).
+Each domain or split contains one folder per class. Folder and image names use lowercase English identifiers with underscores, as listed in [`CLASS_MAPPING.csv`](CLASS_MAPPING.csv).
 
 ## Image counts
 
@@ -52,18 +52,18 @@ D2_train and D2_val are image/field-of-view-level splits. Specimen-level, slide-
 
 The dataset contains the following 12 classes:
 
-1. Arborvitae seed (`baiziren`)
-2. Processed pinellia (`banxiaqu`)
-3. Szechuan lovage rhizome (`chuanqiong`)
-4. Vinegar-processed schisandra (`cuwuweizi`)
-5. Chinese angelica (`danggui`)
-6. Codonopsis root (`dangshen`)
-7. Poria (`fuling`)
-8. Cinnamon bark (`rougui`)
-9. Sour jujube seed (`suanzaoren`)
-10. Honey-fried licorice (`zhigancao`)
-11. Honey-fried astragalus (`zhihuangqi`)
-12. Cinnabar (`zhusha`)
+1. Arborvitae seed (`arborvitae_seed`)
+2. Processed pinellia (`processed_pinellia`)
+3. Szechuan lovage rhizome (`szechuan_lovage_rhizome`)
+4. Vinegar-processed schisandra (`vinegar_processed_schisandra`)
+5. Chinese angelica (`chinese_angelica`)
+6. Codonopsis root (`codonopsis_root`)
+7. Poria (`poria`)
+8. Cinnamon bark (`cinnamon_bark`)
+9. Sour jujube seed (`sour_jujube_seed`)
+10. Honey-fried licorice (`honey_fried_licorice`)
+11. Honey-fried astragalus (`honey_fried_astragalus`)
+12. Cinnabar (`cinnabar`)
 
 ## Preprocessing used in the paper
 
